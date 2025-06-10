@@ -462,6 +462,10 @@ main{
     display: flex;
    
   }
+  .gallery-overlay a{
+    color: var(--white);
+    text-decoration: none;
+  }
   .gallery-item:hover img {
     transform: scale(1.5);
   }

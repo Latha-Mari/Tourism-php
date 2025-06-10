@@ -68,7 +68,7 @@
     <div class="home" id="home">
         <div class="content">
             <img src="assets/images/tra1.jpg" alt="homeimage">
-            <h5>Hello <span><?php echo $_SESSION['username'] ?></span> , Welcome you</h5>
+            <h5>Hello  Welcome you</h5>
             <h1>Visit <span class="changecontent"></span></h1>
             <p>Explore and Enjoy Yourself</p>
             <a href="#book">Book Now</a>
@@ -225,7 +225,7 @@
                     <div class="gallery-overlay">
                         <h3>India Tourism</h3>
                         <h6>3 Days 2 Nights</h6>
-                        <a href="#" target="_blank" class="btn btn-tertiary">LearnMore<i class="fas fa-external-link-alt"></i></a>
+                        <a href="#" target="_blank" class="btn-tertiary">LearnMore<i class="fas fa-external-link-alt"></i></a>
                     </div>
                 </div>
                 <div class="gallery-item">
@@ -233,7 +233,7 @@
                      <div class="gallery-overlay">
                         <h3>Europe Tourism</h3>
                         <h6>10 Days 9 Nights</h6>
-                        <a href="#" target="_blank" class="btn btn-tertiary">LearnMore<i class="fas fa-external-link-alt"></i></a>
+                        <a href="#" target="_blank" class="btn-tertiary">LearnMore<i class="fas fa-external-link-alt"></i></a>
                     </div>
                 </div>
                 <div class="gallery-item">
@@ -241,7 +241,7 @@
                  <div class="gallery-overlay">
                     <h3>America Tourism</h3>
                     <h6>7 Days 6 Nights</h6>
-                    <a href="#" target="_blank" class="btn btn-tertiary">LearnMore<i class="fas fa-external-link-alt"></i></a>
+                    <a href="#" target="_blank" class="btn-tertiary">LearnMore<i class="fas fa-external-link-alt"></i></a>
                 </div>
             </div>
                  <div class="gallery-item">
@@ -249,7 +249,7 @@
                      <div class="gallery-overlay">
                         <h3>Indonesia Tourism</h3>
                         <h6>3 Days 2 Nights</h6>
-                        <a href="#" target="_blank" class="btn btn-tertiary">LearnMore<i class="fas fa-external-link-alt"></i></a>
+                        <a href="#" target="_blank" class="btn-tertiary">LearnMore<i class="fas fa-external-link-alt"></i></a>
                     </div>
                 </div>
                 <div class="gallery-item">
@@ -257,7 +257,7 @@
                      <div class="gallery-overlay">
                         <h3>Japan Tourism</h3>
                         <h6>5 Days 4 Nights</h6>
-                        <a href="#" target="_blank" class="btn btn-tertiary">LearnMore<i class="fas fa-external-link-alt"></i></a>
+                        <a href="#" target="_blank" class="btn-tertiary">LearnMore<i class="fas fa-external-link-alt"></i></a>
                     </div>
                 </div>
                 <div class="gallery-item">
@@ -265,7 +265,7 @@
                      <div class="gallery-overlay">
                         <h3>France Tourism</h3>
                         <h6>3 Days 2 Nights</h6>
-                        <a href="#" target="_blank" class="btn btn-tertiary">LearnMore<i class="fas fa-external-link-alt"></i></a>
+                        <a href="#" target="_blank" class="btn-tertiary">LearnMore<i class="fas fa-external-link-alt"></i></a>
                     </div>
                 </div>
                 <div class="gallery-item">
@@ -273,7 +273,7 @@
                   <div class="gallery-overlay">
                       <h3>China Tourism</h3>
                       <h6>8 Days 7 Nights</h6>
-                      <a href="#" target="_blank" class="btn btn-tertiary">LearnMore<i class="fas fa-external-link-alt"></i></a>
+                      <a href="#" target="_blank" class="btn-tertiary">LearnMore<i class="fas fa-external-link-alt"></i></a>
                   </div>
               </div>
               
@@ -282,7 +282,7 @@
                    <div class="gallery-overlay">
                       <h3>Egypt Tourism</h3>
                       <h6>5 Days 4 Nights</h6>
-                      <a href="#" target="_blank" class="btn btn-tertiary">LearnMore<i class="fas fa-external-link-alt"></i></a>
+                      <a href="#" target="_blank" class="btn-tertiary">LearnMore<i class="fas fa-external-link-alt"></i></a>
                   </div>
               </div>
               <div class="gallery-item">
@@ -290,7 +290,7 @@
                      <div class="gallery-overlay">
                         <h3>Spain Tourism</h3>
                         <h6>3 Days 2 Nights</h6>
-                        <a href="#" target="_blank" class="btn btn-tertiary">LearnMore<i class="fas fa-external-link-alt"></i></a>
+                        <a href="#" target="_blank" class="btn-tertiary">LearnMore<i class="fas fa-external-link-alt"></i></a>
                     </div>
                 </div>
                  <div class="gallery-item">
@@ -298,7 +298,7 @@
                      <div class="gallery-overlay">
                         <h3>Dubai Tourism</h3>
                         <h6>7 Days 6 Nights</h6>
-                        <a href="#" target="_blank" class="btn btn-tertiary">LearnMore<i class="fas fa-external-link-alt"></i></a>
+                        <a href="#" target="_blank" class="btn-tertiary">LearnMore<i class="fas fa-external-link-alt"></i></a>
                     </div>
                 </div>
                 <div class="gallery-item">
@@ -306,14 +306,14 @@
                      <div class="gallery-overlay">
                         <h3>Singapore Tourism</h3>
                         <h6>3 Days 2 Nights</h6>
-                        <a href="#" target="_blank" class="btn btn-tertiary">LearnMore<i class="fas fa-external-link-alt"></i></a>
+                        <a href="#" target="_blank" class="btn-tertiary">LearnMore<i class="fas fa-external-link-alt"></i></a>
                     </div>
                 </div>
                 <div class="gallery-item">
                     <img src="assets/images/blog12.jpg" alt="Project Four">
                      <div class="gallery-overlay">
                         <h3>Italy Tourism</h3>
-                        <a href="#" target="_blank" class="btn btn-tertiary">LearnMore<i class="fas fa-external-link-alt"></i></a>
+                        <a href="#" target="_blank" class="btn-tertiary">LearnMore<i class="fas fa-external-link-alt"></i></a>
                     </div>
                 </div>
             </div>
