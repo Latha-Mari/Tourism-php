@@ -18,7 +18,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
     <!-- Google Fonts -->
-     <link rel="stylesheet" href="assest/css/style.css">
+     <link rel="stylesheet" href="assets/css/style.css">
     <title>About Page</title>
     
    <style>
@@ -55,8 +55,6 @@
               </li>
              
             </ul>
-            <button class="home-btn btn-primary" type="button">Login</button>
-            <button class="home-btn btn-secondary" type="button">Register</button>
           </div>
         </div>
       </nav>
@@ -69,7 +67,7 @@
     <!-- Home Section Start -->
     <div class="home" id="home">
         <div class="content">
-            <img src="assest/images/tra0.jpg" alt="homeimage">
+            <img src="assets/images/tra0.jpg" alt="homeimage">
             <h5>Welcome To Our About Page</h5>
             <h1>Visit Our Company</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, cumque. Quisquam, voluptatum. Quasi, cumque. Quisquam, voluptatum. Quasi, cumque.</p>
@@ -94,7 +92,7 @@
   
           <div class="col-md-6 py-3 py-md-0">
             <div class="card">
-              <img src="assest/images/about.jpg" alt="about">
+              <img src="assets/images/about.jpg" alt="about">
             </div>
           </div>
 
@@ -123,7 +121,7 @@
     <section class="review">
       <div class="review-wrapper">
         <div class="review-card">
-          <img src="assest/images/banner-1.jpg" alt="banner" />
+          <img src="assets/images/banner-1.jpg" alt="banner" />
           <div class="review-content">
             <h4>Dora Dora</h4>
             <div class="review-ratings">
@@ -140,7 +138,7 @@
           </div>
         </div>
         <div class="review-card">
-          <img src="assest/images/banner-2.jpg" alt="banner" />
+          <img src="assets/images/banner-2.jpg" alt="banner" />
           <div class="review-content">
             <h4>Banff National Park</h4>
             <div class="review-ratings"> 
@@ -157,7 +155,7 @@
           </div>
         </div>
         <div class="review-card">
-          <img src="assest/images/banner-3.jpg" alt="banner" />
+          <img src="assets/images/banner-3.jpg" alt="banner" />
           <div class="review-content">
             <h4>Barcelona</h4>
             <div class="review-ratings">
@@ -174,7 +172,7 @@
           </div>
         </div>
         <div class="review-card">
-          <img src="assest/images/banner-4.jpg" alt="banner" />
+          <img src="assets/images/banner-4.jpg" alt="banner" />
           <div class="review-content">
             <h4>Cape Town</h4>
             <div class="review-ratings">
@@ -192,7 +190,7 @@
           </div>
         </div>
         <div class="review-card">
-          <img src="assest/images/banner-5.jpg" alt="banner" />
+          <img src="assets/images/banner-5.jpg" alt="banner" />
           <div class="review-content">
             <h4>Queenstown</h4>
             <div class="review-ratings">
@@ -209,7 +207,7 @@
           </div>
         </div>
         <div class="review-card">
-          <img src="assest/images/banner-6.jpg" alt="banner" />
+          <img src="assets/images/banner-6.jpg" alt="banner" />
           <div class="review-content">
             <h4>Santorini</h4>
             <div class="review-ratings">
@@ -257,49 +255,49 @@
           </div>
           <div class="team-container">
               <div class="team-item">
-                  <img src="assest/images/team1.jpg" alt="team member1">
+                  <img src="assets/images/team1.jpg" alt="team member1">
               </div>
               <div class="team-item">
-                  <img src="assest/images/team2.jpg" alt="team member2">
+                  <img src="assets/images/team2.jpg" alt="team member2">
               </div>
               <div class="team-item">
-                <img src="assest/images/team3.jpg" alt="team member3">
+                <img src="assets/images/team3.jpg" alt="team member3">
               </div>
               <div class="team-item">
-                  <img src="assest/images/team4.jpg" alt="team member4">
+                  <img src="assets/images/team4.jpg" alt="team member4">
               </div>
               <div class="team-item">
-                  <img src="assest/images/team5.jpg" alt="team member5">
+                  <img src="assets/images/team5.jpg" alt="team member5">
               </div>
               <div class="team-item">
-                <img src="assest/images/team6.jpg" alt="team member6">
+                <img src="assets/images/team6.jpg" alt="team member6">
               </div>
               <div class="team-item">
-                <img src="assest/images/team7.jpg" alt="team member7">
+                <img src="assets/images/team7.jpg" alt="team member7">
             </div>
               <div class="team-item">
-                  <img src="assest/images/team8.jpg" alt="team member8">
+                  <img src="assets/images/team8.jpg" alt="team member8">
               </div>
               <div class="team-item">
-                  <img src="assest/images/team9.jpg" alt="team member9">
+                  <img src="assets/images/team9.jpg" alt="team member9">
               </div>
               <div class="team-item">
-                <img src="assest/images/team10.jpg" alt="team member10">
+                <img src="assets/images/team10.jpg" alt="team member10">
               </div>
               <div class="team-item">
-                  <img src="assest/images/team11.jpg" alt="team member11">
+                  <img src="assets/images/team11.jpg" alt="team member11">
               </div>
               <div class="team-item">
-                <img src="assest/images/team12.jpg" alt="team member12">
+                <img src="assets/images/team12.jpg" alt="team member12">
               </div>  
               <div class="team-item">
-                <img src="assest/images/team13.jpg" alt="team member3">
+                <img src="assets/images/team13.jpg" alt="team member3">
               </div>
               <div class="team-item">
-                  <img src="assest/images/team14.jpg" alt="team member4">
+                  <img src="assets/images/team14.jpg" alt="team member4">
               </div>
               <div class="team-item">
-                  <img src="assest/images/team15.jpg" alt="team member5">
+                  <img src="assets/images/team15.jpg" alt="team member5">
               </div>
           </div>
         </div>
@@ -346,7 +344,7 @@
     </footer>
 
     <!-- Footer End -->
-    <script src="assest/js/script.js"></script>
+    <script src="assets/js/script.js"></script>
 
 </body>
 </html>
