@@ -41,7 +41,7 @@
 
          }
 
-         }else{
+         
          
         ?>
 
@@ -62,16 +62,15 @@
                     <input type="password" name="password" id="password" autocomplete="off" required>
                 </div>
 
-                <div class="field">
-                    
+                <div class="field">  
                     <input type="submit" class="btn" name="submit" value="Register" required>
                 </div>
+                
                 <div class="links">
                     Already a member? <a href="index.php">Sign In</a>
                 </div>
             </form>
-        </div>
-        <?php } ?>
-      </div>
+            <?php } ?>
+     
 </body>
 </html>
