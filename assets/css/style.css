@@ -395,7 +395,7 @@ main{
       border-radius: 5px;
   }
   #about-btn:hover{
-      background:linear-gradient(45deg,white,var(--secondary-color)); 
+      background:linear-gradient(45deg,var(--white),var(--secondary-color)); 
       color: var(--white);
       letter-spacing: 3px;       
       
