@@ -57,11 +57,8 @@
               <li class="nav-item">
               <a class="nav-link" href="booking.php">Booking</a>
               </li>
-             
             </ul>
-            <a href="php/logout.php"> <button class="btn">Log Out</button> </a>
-            <!-- <button type="button" href="login.php" >Login</button>
-            <button type="button" href="register.php" >Register</button> -->
+            <button class="btn"><a href="logout.php">Logout</a></button>
           </div>
         </div>
       </nav>
