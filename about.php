@@ -121,9 +121,9 @@
     <section class="review">
       <div class="review-wrapper">
         <div class="review-card">
-          <img src="assets/images/banner-1.jpg" alt="banner" />
+          <img src="assets/images/rev1.jpg" alt="review" />
           <div class="review-content">
-            <h4>Dora Dora</h4>
+            <h4>John Mathew</h4>
             <div class="review-ratings">
               <span><i class="fa-solid fa-star"></i></span>
               <span><i class="fa-solid fa-star"></i></span>
@@ -132,15 +132,15 @@
               <span><i class="fa-solid fa-star"></i></span>
             </div>
             <p>
-              Surrender to the allure of Bora Bora, a tropical paradise
-              surrounded by turquoise waters and coral reefs.
+             Recusandae soluta harum aperiam doloremque nostrum. Modi aspernatur 
+             quidem illum nisi ea libero, sequi doloribus mollitia corrupti.
             </p>
           </div>
         </div>
         <div class="review-card">
-          <img src="assets/images/banner-2.jpg" alt="banner" />
+          <img src="assets/images/rev2.jpg" alt="review" />
           <div class="review-content">
-            <h4>Banff National Park</h4>
+            <h4>Nana Ellis</h4>
             <div class="review-ratings"> 
               <span><i class="fa-solid fa-star"></i></span>
               <span><i class="fa-solid fa-star"></i></span>
@@ -149,15 +149,15 @@
               <span><i class="fa-solid fa-star-half-stroke"></i></span>
             </div>
             <p>
-              Hike through alpine meadows, take a scenic drive along the
-              Icefields Parkway, and soak in the beauty of the Canadian Rockies.
+             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+             quidem illum nisi ea libero, sequi doloribus mollitia corrupti.
             </p>
           </div>
         </div>
         <div class="review-card">
-          <img src="assets/images/banner-3.jpg" alt="banner" />
+          <img src="assets/images/rev3.jpg" alt="review" />
           <div class="review-content">
-            <h4>Barcelona</h4>
+            <h4>Luca Alina </h4>
             <div class="review-ratings">
               <span><i class="fa-solid fa-star"></i></span>
               <span><i class="fa-solid fa-star"></i></span>
@@ -166,50 +166,15 @@
               <span><i class="fa-solid fa-star"></i></span>
             </div>
             <p>
-              The city's vibrant street life, world-class cuisine, and
-              Mediterranean beaches make it a must-visit destination.
+             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae soluta 
+             quidem illum nisi ea libero, sequi doloribus mollitia corrupti.
             </p>
           </div>
         </div>
         <div class="review-card">
-          <img src="assets/images/banner-4.jpg" alt="banner" />
+          <img src="assets/images/rev4.jpg" alt="review" />
           <div class="review-content">
-            <h4>Cape Town</h4>
-            <div class="review-ratings">
-              <span><i class="fa-solid fa-star"></i></span>
-              <span><i class="fa-solid fa-star"></i></span>
-              <span><i class="fa-solid fa-star"></i></span>
-              <span><i class="fa-solid fa-star"></i></span>
-              <span><i class="fa-solid fa-star-half-stroke"></i></span>
-            </div>
-            <p>
-              From the iconic Table Mountain and historic Robben Island to the
-              scenic Cape Winelands, this South African gem offers a blend of
-              natural beauty, history, and modern sophistication.
-            </p>
-          </div>
-        </div>
-        <div class="review-card">
-          <img src="assets/images/banner-5.jpg" alt="banner" />
-          <div class="review-content">
-            <h4>Queenstown</h4>
-            <div class="review-ratings">
-              <span><i class="fa-solid fa-star"></i></span>
-              <span><i class="fa-solid fa-star"></i></span>
-              <span><i class="fa-solid fa-star"></i></span>
-              <span><i class="fa-solid fa-star"></i></span>
-              <span><i class="fa-solid fa-star"></i></span>
-            </div>
-            <p>
-              Nestled against the backdrop of the Southern Alps, Queenstown is a
-              haven for adventure enthusiasts.
-            </p>
-          </div>
-        </div>
-        <div class="review-card">
-          <img src="assets/images/banner-6.jpg" alt="banner" />
-          <div class="review-content">
-            <h4>Santorini</h4>
+            <h4>Rio Adam</h4>
             <div class="review-ratings">
               <span><i class="fa-solid fa-star"></i></span>
               <span><i class="fa-solid fa-star"></i></span>
@@ -218,9 +183,93 @@
               <span><i class="fa-solid fa-star-half-stroke"></i></span>
             </div>
             <p>
-              Known for its romantic sunsets, vibrant culture, and delicious
-              cuisine, this Greek island is a paradise for travelers seeking
-              both relaxation and adventure.
+             Dolor sit amet consectetur adipisicing elit. Recusandae soluta harum aperiam 
+             doloremque nostrum. Modi aspernatur eaque, perspiciatis nostrum.
+            </p>
+          </div>
+        </div>
+        <div class="review-card">
+          <img src="assets/images/rev5.jpg" alt="review" />
+          <div class="review-content">
+            <h4>John Abraham</h4>
+            <div class="review-ratings">
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+            </div>
+            <p>
+             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque nostrum.
+             Modi aspernatur eaque, perspiciatis nostrum,repudiandae reprehenderit
+            </p>
+          </div>
+        </div>
+        <div class="review-card">
+          <img src="assets/images/rev6.jpg" alt="review" />
+          <div class="review-content">
+            <h4>Dora Disosa</h4>
+            <div class="review-ratings">
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star-half-stroke"></i></span>
+            </div>
+            <p>
+             Recusandae soluta harum aperiam doloremque nostrum. Modi aspernatur 
+             quidem illum nisi ea libero, sequi doloribus mollitia corrupti.
+            </p>
+          </div>
+        </div>
+        <div class="review-card">
+          <img src="assets/images/rev7.jpg" alt="review" />
+          <div class="review-content">
+            <h4>Riya Mathew</h4>
+            <div class="review-ratings">
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star-half-stroke"></i></span>
+            </div>
+           <p>
+             Modi aspernatur eaque, perspiciatis nostrum,repudiandae reprehenderit
+             quidem illum nisi ea libero, sequi doloribus mollitia corrupti.
+            </p>
+          </div>
+        </div>
+        <div class="review-card">
+          <img src="assets/images/rev8.jpg" alt="review" />
+          <div class="review-content">
+            <h4>Abraham adam</h4>
+            <div class="review-ratings">
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star-half-stroke"></i></span>
+            </div>
+            <p>
+             Soluta harum aperiam doloremque nostrum. Modi aspernatur eaque, 
+             quidem illum nisi ea libero, sequi doloribus mollitia corrupti.
+            </p>
+          </div>
+        </div>
+        <div class="review-card">
+          <img src="assets/images/rev9.jpg" alt="review" />
+          <div class="review-content">
+            <h4>Ryan </h4>
+            <div class="review-ratings">
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star-half-stroke"></i></span>
+            </div>
+           <p>
+             Sit amet consectetur adipisicing elitecu sandae soluta harum aperiam 
+             doloremque nostrum. Modi aspernatur eaque.
             </p>
           </div>
         </div>

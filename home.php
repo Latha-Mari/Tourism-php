@@ -334,7 +334,7 @@
         </p>
         <form action="/">
           <input type="text" placeholder="Enter Your Email" required/>
-          <button class="btn">Submit</button>
+          <button type="submit" class="news-btn">Subscribe</button>
         </form>
       </div>
     </section>
