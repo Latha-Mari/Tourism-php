@@ -40,7 +40,7 @@
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
             <span><i class="fa-solid fa-bars"></i></span>
           </button>
-          <div class="collapse navbar-collapse" id="mynavbar">
+          <div class=" mynav collapse navbar-collapse" id="mynavbar">
             <ul class="navbar-nav me-auto">
               <li class="nav-item">
                 <a class="nav-link active" href="home.php">Home</a>
@@ -58,7 +58,7 @@
               <a class="nav-link" href="booking.php">Booking</a>
               </li>
             </ul>
-            <button class="btn"><a href="logout.php">Logout</a></button>
+            <a class="btn" href="logout.php">Logout</a>
           </div>
         </div>
       </nav>
@@ -332,9 +332,9 @@
           Join our community of avid travelers and receive regular doses of
           wanderlust straight to your inbox.
         </p>
-        <form action="/">
+        <form action="">
           <input type="text" placeholder="Enter Your Email" required/>
-          <button class="btn">Submit</button>
+          <button type="submit" class="news-btn">Subscribe</button>
         </form>
       </div>
     </section>

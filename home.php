@@ -58,7 +58,7 @@
               <a class="nav-link" href="booking.php">Booking</a>
               </li>
             </ul>
-            <button class="btn"><a href="logout.php">Logout</a></button>
+            <a class="btn" href="logout.php">Logout</a>
           </div>
         </div>
       </nav>
@@ -332,7 +332,7 @@
           Join our community of avid travelers and receive regular doses of
           wanderlust straight to your inbox.
         </p>
-        <form action="/">
+        <form action="">
           <input type="text" placeholder="Enter Your Email" required/>
           <button type="submit" class="news-btn">Subscribe</button>
         </form>

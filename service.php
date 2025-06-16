@@ -1,4 +1,11 @@
+<?php 
+   session_start();
 
+   include("config.php");
+   if(!isset($_SESSION['valid'])){
+    header("Location: index.php");
+   }
+?>
 
 <!DOCTYPE html>
 <html>
@@ -33,7 +40,7 @@
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
             <span><i class="fa-solid fa-bars"></i></span>
           </button>
-          <div class="collapse navbar-collapse" id="mynavbar">
+          <div class=" mynav collapse navbar-collapse" id="mynavbar">
             <ul class="navbar-nav me-auto">
               <li class="nav-item">
                 <a class="nav-link active" href="home.php">Home</a>
@@ -50,11 +57,8 @@
               <li class="nav-item">
               <a class="nav-link" href="booking.php">Booking</a>
               </li>
-             
             </ul>
-            <a href="php/logout.php"> <button class="btn">Log Out</button> </a>
-            <!-- <button type="button" href="login.php" >Login</button>
-            <button type="button" href="register.php" >Register</button> -->
+            <a class="btn" href="logout.php">Logout</a>
           </div>
         </div>
       </nav>
@@ -68,7 +72,7 @@
     <div class="home" id="home">
         <div class="content">
             <img src="assets/images/tra1.jpg" alt="homeimage">
-            <h5>Hello  Welcome you</h5>
+            <h5>Hello <span><?php echo $_SESSION['username'] ?></span> , Welcome you</h5>
             <h1>Visit <span class="changecontent"></span></h1>
             <p>Explore and Enjoy Yourself</p>
             <a href="#book">Book Now</a>
@@ -328,9 +332,9 @@
           Join our community of avid travelers and receive regular doses of
           wanderlust straight to your inbox.
         </p>
-        <form action="/">
+        <form action="">
           <input type="text" placeholder="Enter Your Email" required/>
-          <button class="btn">Submit</button>
+          <button type="submit" class="news-btn">Subscribe</button>
         </form>
       </div>
     </section>

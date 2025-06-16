@@ -53,8 +53,8 @@
               <li class="nav-item">
                 <a class="nav-link" href="booking.php">Booking</a>
               </li>
-             
             </ul>
+            <a class="btn" href="logout.php">Logout</a>
           </div>
         </div>
       </nav>
@@ -278,21 +278,6 @@
     <!-- Review Section End -->
 
 
-
-    
-   <section class="section__container container_fluid newsletter__container" id="contact">
-      <div class="newsletter__content">
-        <h2 class="section__header">Sign Up to our Newsletter</h2>
-        <p class="section__description">
-          Join our community of avid travelers and receive regular doses of
-          wanderlust straight to your inbox.
-        </p>
-        <form action="/">
-          <input type="text" placeholder="Enter Your Email" required/>
-          <button class="btn">Submit</button>
-        </form>
-      </div>
-    </section>
 
      
 
