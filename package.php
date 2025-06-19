@@ -71,8 +71,8 @@
     <!-- Home Section Start -->
     <div class="home" id="home">
         <div class="content">
-            <img src="assets/images/tra1.jpg" alt="homeimage">
-            <h5>Hello <span><?php echo $_SESSION['username'] ?></span> , Welcome you</h5>
+            <img src="assets/images/package.jpg" alt="homeimage">
+            <h5>Hello <span><?php echo $_SESSION['username'] ?></span> , Welcome Our Packages Page</h5>
             <h1>Visit <span class="changecontent"></span></h1>
             <p>Explore and Enjoy Yourself</p>
             <a href="#book">Book Now</a>
@@ -230,56 +230,70 @@
                 <div class="gallery-item">
                     <img src="assets/images/blog18.jpg" alt="Project eighteen">
                      <div class="gallery-overlay">
-                        <h3> Tourism</h3>
-                        <h6>7 Days 6 Nights</h6>
+                        <h3>Iran Tourism</h3>
+                        <h6>10 Days 9 Nights</h6>
                         <a href="#" target="_blank" class="btn-tertiary">LearnMore<i class="fas fa-external-link-alt"></i></a>
                     </div>
                 </div>
                 <div class="gallery-item">
                     <img src="assets/images/blog19.jpg" alt="Project nineteen">
                      <div class="gallery-overlay">
-                        <h3> Tourism</h3>
-                        <h6>7 Days 6 Nights</h6>
+                        <h3>Greece Tourism</h3>
+                        <h6>5 Days 4 Nights</h6>
                         <a href="#" target="_blank" class="btn-tertiary">LearnMore<i class="fas fa-external-link-alt"></i></a>
                     </div>
                 </div>
                 <div class="gallery-item">
                     <img src="assets/images/blog20.jpg" alt="Project twenty">
                      <div class="gallery-overlay">
-                        <h3> Tourism</h3>
+                        <h3>Portucal Tourism</h3>
                         <h6>7 Days 6 Nights</h6>
                         <a href="#" target="_blank" class="btn-tertiary">LearnMore<i class="fas fa-external-link-alt"></i></a>
                     </div>
                 </div>
-
-
-
-
+                 <div class="gallery-item">
+                    <img src="assets/images/blog21.jpg" alt="Project twentyone">
+                     <div class="gallery-overlay">
+                        <h3>Iceland Tourism</h3>
+                        <h6>4 Days 3 Nights</h6>
+                        <a href="#" target="_blank" class="btn-tertiary">LearnMore<i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/images/blog22.jpg" alt="Project twentytwo">
+                     <div class="gallery-overlay">
+                        <h3>Poland Tourism</h3>
+                        <h6>10 Days 9 Nights</h6>
+                        <a href="#" target="_blank" class="btn-tertiary">LearnMore<i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                 <div class="gallery-item">
+                    <img src="assets/images/blog23.jpg" alt="Project twentythree">
+                     <div class="gallery-overlay">
+                        <h3>Mexico Tourism</h3>
+                        <h6>7 Days 6 Nights</h6>
+                        <a href="#" target="_blank" class="btn-tertiary">LearnMore<i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/images/blog24.jpg" alt="Project twentyfour">
+                     <div class="gallery-overlay">
+                        <h3>Korea Tourism</h3>
+                        <h6>5 Days 4 Nights</h6>
+                        <a href="#" target="_blank" class="btn-tertiary">LearnMore<i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
 
             </div>
         </div>
     </section>
    <!-- gallery Section End-->
    
-     <section class="section__container container_fluid newsletter__container" id="contact">
-      <div class="newsletter__content">
-        <h2 class="section__header">Sign Up to our Newsletter</h2>
-        <p class="section__description">
-          Join our community of avid travelers and receive regular doses of
-          wanderlust straight to your inbox.
-        </p>
-        <form action="">
-          <input type="text" placeholder="Enter Your Email" required/>
-          <button type="submit" class="news-btn">Subscribe</button>
-        </form>
-      </div>
-    </section>
-
 
 
 
             <!-- Section package Start -->
-    <section class="packages" id="packages">
+    <!-- <section class="packages" id="packages">
       <div class="container">
 
         <div class="main-txt">
@@ -327,129 +341,128 @@
               </div>
             </div>
           </div>
+          <div class="row" style="margin-top: 30px;">
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <div class="overlay">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+                <img src="assets/images/pak4.jpg" alt="Honeymoon">
+                <div class="card-body">
+                    <h3>Honeymoon Packages</h3>
+                    <p>Lorem ipsum dolor sit uptas repellendus et veniam maiores,nostrum officia </p>
+                    <h6>Price $950 <span>3Days 2Nights</span></h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <div class="overlay">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+                <img src="assets/images/pak5.jpg" alt="Kids">
+                <div class="card-body">
+                    <h3>Kids Packages</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing maiores,nostrum officia illo</p>
+                    <h6>Price $350 <span>3Days 2Nights</span></h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <div class="overlay">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+                <img src="assets/images/pak6.jpg" alt="Beach">
+                <div class="card-body">
+                    <h3>Beach Packages</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing uptas veniam maiores,nostrum</p>
+                    <h6>Price $520 <span>5Days 4Nights</span></h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <div class="overlay">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+                <img src="assets/images/pak7.jpg" alt="Desert">
+                <div class="card-body">
+                    <h3>Desert Packages</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing uptas repellendus</p>
+                    <h6>Price $450 <span>5Days 4Nights</span></h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <div class="overlay">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+                <img src="assets/images/pak8.jpg" alt="Winter">
+                <div class="card-body">
+                    <h3>Winter Packages</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing uptas repellendus</p>
+                    <h6>Price $750 <span>10Days 9Nights</span></h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <div class="overlay">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+                <img src="assets/images/pak.jpg9" alt="Falls">
+                <div class="card-body">
+                    <h3>Island Packages</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing uptas repellendus</p>
+                    <h6>Price $650 <span>4Days 3Nights</span></h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <div class="overlay">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+                <img src="assets/images/pak7.jpg" alt="Desert">
+                <div class="card-body">
+                    <h3>Cruies Packages</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing uptas repellendus</p>
+                    <h6>Price $450 <span>5Days 4Nights</span></h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <div class="overlay">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+                <img src="assets/images/pak7.jpg" alt="Desert">
+                <div class="card-body">
+                    <h3>Summer Vocation Packages</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing uptas repellendus</p>
+                    <h6>Price $750 <span>7Days 6Nights</span></h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                <div class="overlay">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+                <img src="assets/images/pak7.jpg" alt="Desert">
+                <div class="card-body">
+                    <h3>Hills Packages</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing uptas repellendus</p>
+                    <h6>Price $450 <span>5Days 4Nights</span></h6>
+                </div>
+              </div>
+            </div>
         </div>
-        <div class="row" style="margin-top: 30px;">
-          <div class="col-md-4 py-3 py-md-0">
-            <div class="card">
-              <div class="overlay">
-                <i class="fa-regular fa-heart"></i>
-              </div>
-              <img src="assets/images/pak4.jpg" alt="Honeymoon">
-              <div class="card-body">
-                  <h3>Honeymoon Packages</h3>
-                  <p>Lorem ipsum dolor sit uptas repellendus et veniam maiores,nostrum officia </p>
-                  <h6>Price $950 <span>3Days 2Nights</span></h6>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 py-3 py-md-0">
-            <div class="card">
-              <div class="overlay">
-                <i class="fa-regular fa-heart"></i>
-              </div>
-              <img src="assets/images/pak5.jpg" alt="Kids">
-              <div class="card-body">
-                  <h3>Kids Packages</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing maiores,nostrum officia illo</p>
-                  <h6>Price $350 <span>3Days 2Nights</span></h6>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 py-3 py-md-0">
-            <div class="card">
-              <div class="overlay">
-                <i class="fa-regular fa-heart"></i>
-              </div>
-              <img src="assets/images/pak6.jpg" alt="Beach">
-              <div class="card-body">
-                  <h3>Beach Packages</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing uptas veniam maiores,nostrum</p>
-                  <h6>Price $520 <span>5Days 4Nights</span></h6>
-              </div>
-            </div>
-          </div>
-        </div>
-         <div class="col-md-4 py-3 py-md-0">
-            <div class="card">
-              <div class="overlay">
-                <i class="fa-regular fa-heart"></i>
-              </div>
-              <img src="assets/images/pak7.jpg" alt="Desert">
-              <div class="card-body">
-                  <h3>Desert Packages</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing uptas repellendus</p>
-                  <h6>Price $450 <span>5Days 4Nights</span></h6>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 py-3 py-md-0">
-            <div class="card">
-              <div class="overlay">
-                <i class="fa-regular fa-heart"></i>
-              </div>
-              <img src="assets/images/pak8.jpg" alt="Winter">
-              <div class="card-body">
-                  <h3>Winter Packages</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing uptas repellendus</p>
-                  <h6>Price $750 <span>10Days 9Nights</span></h6>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 py-3 py-md-0">
-            <div class="card">
-              <div class="overlay">
-                <i class="fa-regular fa-heart"></i>
-              </div>
-              <img src="assets/images/pak.jpg9" alt="Falls">
-              <div class="card-body">
-                  <h3>Falls Packages</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing uptas repellendus</p>
-                  <h6>Price $650 <span>4Days 3Nights</span></h6>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 py-3 py-md-0">
-            <div class="card">
-              <div class="overlay">
-                <i class="fa-regular fa-heart"></i>
-              </div>
-              <img src="assets/images/pak7.jpg" alt="Desert">
-              <div class="card-body">
-                  <h3>Cruies Packages</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing uptas repellendus</p>
-                  <h6>Price $450 <span>5Days 4Nights</span></h6>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 py-3 py-md-0">
-            <div class="card">
-              <div class="overlay">
-                <i class="fa-regular fa-heart"></i>
-              </div>
-              <img src="assets/images/pak7.jpg" alt="Desert">
-              <div class="card-body">
-                  <h3>Summer Vocation Packages</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing uptas repellendus</p>
-                  <h6>Price $750 <span>7Days 6Nights</span></h6>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 py-3 py-md-0">
-            <div class="card">
-              <div class="overlay">
-                <i class="fa-regular fa-heart"></i>
-              </div>
-              <img src="assets/images/pak7.jpg" alt="Desert">
-              <div class="card-body">
-                  <h3>Hills Packages</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing uptas repellendus</p>
-                  <h6>Price $450 <span>5Days 4Nights</span></h6>
-              </div>
-            </div>
-          </div>
-
       </div>
-    </section>
+    </section> -->
     <!-- package Section End -->
 
 
