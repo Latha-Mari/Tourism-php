@@ -119,8 +119,7 @@
       </section>
       <!-- About End -->
 
-
-            <!-- Section package Start -->
+             <!-- Section package Start -->
     <section class="packages" id="packages">
       <div class="container">
 
@@ -135,7 +134,7 @@
               <div class="overlay">
                 <i class="fa-regular fa-heart"></i>
               </div>
-              <img src="assets/images/pak1.jpg" alt="">
+              <img src="assets/images/pack1.jpg" alt="packkage1">
               <div class="card-body">
                   <h3>Adventure Packages</h3>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing uptas repellendus</p>
@@ -148,7 +147,7 @@
               <div class="overlay">
                 <i class="fa-regular fa-heart"></i>
               </div>
-              <img src="assets/images/pak2.jpg" alt="">
+              <img src="assets/images/pack2.jpg" alt="packkage2">
               <div class="card-body">
                   <h3>Spritual Packages</h3>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing uptas repellendus veniam maiores</p>
@@ -161,9 +160,9 @@
               <div class="overlay">
                 <i class="fa-regular fa-heart"></i>
               </div>
-              <img src="assets/images/pak3.jpg" alt="">
+              <img src="assets/images/pack3.jpg" alt="packkage4">
               <div class="card-body">
-                  <h3>Friends Packages</h3>
+                  <h3>Beach Packages</h3>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing uptas repellendus</p>
                   <h6>Price $750 <span>7Days 6Nights</span></h6>
               </div>
@@ -176,7 +175,7 @@
               <div class="overlay">
                 <i class="fa-regular fa-heart"></i>
               </div>
-              <img src="assets/images/pak4.jpg" alt="">
+              <img src="assets/images/pack4.jpg" alt="packkage4">
               <div class="card-body">
                   <h3>Honeymoon Packages</h3>
                   <p>Lorem ipsum dolor sit uptas repellendus et veniam maiores,nostrum officia </p>
@@ -189,9 +188,9 @@
               <div class="overlay">
                 <i class="fa-regular fa-heart"></i>
               </div>
-              <img src="assets/images/pak5.jpg" alt="">
+              <img src="assets/images/pack5.jpg" alt="packkage5">
               <div class="card-body">
-                  <h3>Kids Packages</h3>
+                  <h3>Family Packages</h3>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing maiores,nostrum officia illo</p>
                   <h6>Price $350 <span>3Days 2Nights</span></h6>
               </div>
@@ -202,9 +201,9 @@
               <div class="overlay">
                 <i class="fa-regular fa-heart"></i>
               </div>
-              <img src="assets/images/pak6.jpg" alt="">
+              <img src="assets/images/pack6.jpg" alt="packkage6">
               <div class="card-body">
-                  <h3>Beach Packages</h3>
+                  <h3>Cruies Packages</h3>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing uptas veniam maiores,nostrum</p>
                   <h6>Price $520 <span>5Days 4Nights</span></h6>
               </div>
@@ -214,7 +213,6 @@
 
       </div>
     </section>
-    <!-- package Section End -->
 
        <!-- gallery Section Start-->
     <section id="gallery" class="section-padding">
