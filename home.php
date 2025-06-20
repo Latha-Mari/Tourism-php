@@ -399,7 +399,7 @@
 
    
   <!--Section Book Start -->
-    <section class="book" id="book">
+    <!-- <section class="book" id="book">
       <div class="container">
 
         <div class="main-text">
@@ -428,7 +428,7 @@
 
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- Section Book End -->
 
 
