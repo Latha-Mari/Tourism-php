@@ -80,16 +80,48 @@
     <section class="booking" id="book">
       <div class="container">
             <form action="">
-              <input type="text" class="form-control" placeholder="Where From" required><br>
-              <input type="text" class="form-control" placeholder="Where To" required><br>
-              <input type="date" class="form-control" placeholder="Arrivals" required><br>
-              <input type="date" class="form-control" placeholder="Leaving" required><br>
+              <select class="place" class="form-control" name="place" required>
+                <option value="">Select Your Destination Place Here</option>
+                <option value="India">India</option>
+                <option value="USA">United States of America</option>
+                <option value="Canada">Canada</option>
+                <option value="Australia">Australia</option>
+                <option value="Japan">Japan</option>
+                <option value="France">France</option>
+                <option value="Germany">Germany</option>
+                <option value="Italy">Italy</option>
+                <option value="Spain">Spain</option>
+                <option value="UK">United Kingdom</option>
+                <option value="China">China</option>
+                <option value="Brazil">Brazil</option>
+                <option value="Mexico">Mexico</option>
+              </select>
+              <input type="text" class="form-control" placeholder="Number Of Persons Adult" required>
+              <select name="kids" class="form-control" required>
+                <option value="">Select The Number Of Persons</option>
+                <option value="0">0 kid</option>
+                <option value="1">1 kid</option>
+                <option value="2">2 kids</option>  
+                <option value="3">3 kids</option>
+                <option value="4">4 kids</option>
+                <option value="5">5 kids</option>
+              </select>
+              <input type="date" class="form-control" placeholder="Arrivals" required>
+              <input type="date" class="form-control" placeholder="Leaving" required>
               <textarea class="form-control" rows="5" name="text" placeholder="Enter Your Name & Details"></textarea>
               <button class="submit">Submit</button>
             </form>
       </div>
     </section>
 
+    <!-- <label for="cars">Choose a car:</label>
+
+<select id="cars">
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="opel">Opel</option>
+  <option value="audi">Audi</option>
+</select> -->
 
     
 

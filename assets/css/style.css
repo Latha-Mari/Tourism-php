@@ -1267,53 +1267,71 @@ main{
   .booking .container{
         width: 100%;
         height: 90vh;
-      }
-      .booking .container form{
-        display: flex;
-        flex-direction: column;
-        gap: 20px; 
-        font-size: 20px;
-        font-weight: 500;
+    }
+    .booking .container form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--black);
+    width: 70%;
+    margin: 0 auto; 
+    padding:30px;  
+    }
+    .booking .container form .place {
+        padding: 15px 20px;
+        left: 20px;
         color: var(--black);
-        width: 70%;
-        margin: 0 auto; 
-        padding:30px;  
-        }
-      .booking .container form input{
-          padding: 15px;
-          color: var(--black);
-          border: none;
-          outline: none;
-          font-size: 15px;
-          border-radius: 10px;
-          box-shadow: 0px 5px 5px -6px black;
-      }
-      .booking .container form textarea{
-          border: none;
-          border-radius: 10px;
-          resize: none;
-          box-shadow: 0px 5px 5px -6px black;
-          height: 100px;
-      }
-      .booking .container form button{
-          padding: 15px;
-          background-color: Linear-gradient(to right, var(--white), var(--secondary-color)) ;
-          color: var(--white);
-          outline: none;
-          font-size: 15px;
-          font-weight: 600;
-          letter-spacing: 2px;
-          border: 2px solid var(--black);
-          border-radius: 10px;
-          cursor: pointer;
-          box-shadow: 0px 5px 5px -6px black;
-      }
-      .booking .container form button:hover{
-          background-color: var(--secondary-color);
-          color: var(--white);
-          letter-spacing: 5px;
-          transition: 0.3s;
-      }
+        background: var(--white);
+        font-size: 16px;
+        font-weight: 500;
+        border: none;
+        outline: none;
+        font-size: 15px;
+        border-radius: 10px;
+        box-shadow: 0px 5px 5px -6px black;
+    }
+    .booking .container form input{
+        padding: 15px;
+        border: none;
+        outline: none;
+        border-radius: 10px;
+        box-shadow: 0px 5px 5px -6px black;
+    }
+    .booking .container form textarea{
+        border: none;
+        border-radius: 10px;
+        resize: none;
+        box-shadow: 0px 5px 5px -6px black;
+        height: 200px;
+    }
+    .booking .container form textarea::placeholder,
+    .booking .container form input{
+        color: var(--black);
+        font-size: 16px;
+        font-weight: 500;
+    }    
+
+    .booking .container form button{
+        padding: 20px;
+        background: Linear-gradient(45deg, var(--white), var(--secondary-color)) ;
+        color: var(--black);
+        outline: none;
+        font-size: 20px;
+        font-weight: 600;
+        letter-spacing: 2px;
+        border: 2px solid var(--black);
+        border-radius: 10px;
+        cursor: pointer;
+        box-shadow: 0px 5px 5px -6px black;
+    }
+    .booking .container form button:hover{
+        background: Linear-gradient(45deg, var(--secondary-color), var(--white)) ;
+        color: var(--white);
+        letter-spacing: 5px;
+        transition: 0.3s;
+    }
 
    /*Footer Section */ 
   footer{
