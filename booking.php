@@ -29,7 +29,7 @@
     <!-- Google Fonts -->
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Travel website</title>
-    
+   
    
 </head>
 <body>
@@ -76,8 +76,6 @@
         </div>
     </div>
     <!-- Home Section End -->
-
-
 
     <section class="booking" id="book">
       <div class="container">
