@@ -96,8 +96,21 @@
                 <option value="Brazil">Brazil</option>
                 <option value="Mexico">Mexico</option>
               </select>
-              <input type="text" class="form-control" placeholder="Number Of Persons Adult" required>
-              <select name="kids" class="form-control" required>
+             
+              <select class="person" name="adult" class="form-control" required>
+                <option value="">Select The Number Of Adults</option>
+                <option value="1">1 Adult</option>
+                <option value="2">2 Adults</option>  
+                <option value="3">3 Adults</option>
+                <option value="4">4 Adults</option>
+                <option value="5">5 Adults</option>
+                <option value="6">6 Adults</option>
+                <option value="7">7 Adults</option>
+                <option value="8">8 Adults</option>
+                <option value="9">9 Adults</option>
+                <option value="10">10 Adults</option>
+              </select>
+              <select class="person" name="kids" class="form-control" required>
                 <option value="">Select The Number Of Persons</option>
                 <option value="0">0 kid</option>
                 <option value="1">1 kid</option>

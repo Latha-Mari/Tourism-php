@@ -424,7 +424,10 @@ main{
     width: 100%;
     height: 100%;
     display: block;
-    transition: transform var(--transition-speed) ease;
+    transition: transform 5s ease;
+  }
+  .gallery-item:hover img {
+    transform: scale(1.5);
   }
 
   .gallery-overlay {
@@ -452,9 +455,7 @@ main{
     color: var(--white);
     text-decoration: none;
   }
-  .gallery-item:hover img {
-    transform: scale(1.5);
-  }
+  
 
   .gallery-item:hover .gallery-overlay {
     opacity: 1;
@@ -770,19 +771,27 @@ main{
   .main-text h1 span{
       color: var(--secondary-color);
   }
- .packages .card{
+ .packages .row .card{
       background-color: var(--white);
       color: var(--text-color);
       box-shadow: 0 0 3px black;
       border-radius: 5px;
       cursor: pointer;
   }
-  .packages .card img {
-      border-radius: 10px;
-      height: 300px;
-  }
   
-  .packages .card .overlay{
+  .packages .row .card img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      border-radius: 10px;
+      transition: transform 0.5s ease;
+  }
+    .packages .row .card:hover img{
+        transform: scale(1.5);
+    }
+  
+  .packages .row .card .overlay{
       display: block;
       opacity: 0;
       position: absolute;
@@ -1188,7 +1197,7 @@ main{
 
     
   /* Section Book Start */
-  .book{
+  /* .book{
     background: #f9f9f9;
     padding: 60px;
   }
@@ -1257,7 +1266,7 @@ main{
       .main-text h1{
           padding: 20px;
       }
-  }
+  } */
 
 
   
@@ -1280,6 +1289,19 @@ main{
     padding:30px;  
     }
     .booking .container form .place {
+        padding: 15px 20px;
+        left: 20px;
+        color: var(--black);
+        background: var(--white);
+        font-size: 16px;
+        font-weight: 500;
+        border: none;
+        outline: none;
+        font-size: 15px;
+        border-radius: 10px;
+        box-shadow: 0px 5px 5px -6px black;
+    }
+     .booking .container form .person {
         padding: 15px 20px;
         left: 20px;
         color: var(--black);

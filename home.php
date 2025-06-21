@@ -446,7 +446,7 @@
         </div>
         <div class="col-md-3 fclast">
           <p>Guidence</p>
-          <p>About Us</p>
+          <p>Careers</p>
           <p>Tour info</p>
           <p>More about</p>
           <p>Contact Us</p>
@@ -465,7 +465,7 @@
         </div>
       </div>
       <div class="footer_bar">
-        <p>Copyright © 2025 LathaMari web developer. All rights reserved.</p>
+        <p>Copyright © 2025 LathaMari web Developer. All rights reserved.</p>
       </div>
     </footer>
 
