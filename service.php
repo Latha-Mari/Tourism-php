@@ -28,7 +28,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
     <!-- Google Fonts -->
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Travel website</title>
+    <title>Service Page</title>
     
    
 </head>
