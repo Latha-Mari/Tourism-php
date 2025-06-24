@@ -51,7 +51,7 @@ body{
     border: 1px solid #ccc;
     outline: none;
 }
-.btn{
+/* .btn{
     height: 45px;
     background: linear-gradient(45deg, var(--secondary-color), var(--white));        
     color: black;
@@ -70,7 +70,29 @@ body{
     background: linear-gradient(45deg, var(--white), var(--secondary-color));
     color: var(--white);
     letter-spacing: 3px;
+} */
+ .btn{
+    height: 45px;
+    background-color: rgb(245, 66, 34);     
+    color: black;
+    border: 3px solid var(--secondary-color);
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 500;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: all .3s ease;
+    margin-top: 10px;
+    padding: 10px 30px;
 }
+.btn:hover{
+    background: transparent;        
+    color: black;
+    border: 3px solid var(--secondary-color);
+    border-radius: 10px;
+    letter-spacing: 3px;
+} 
 .submit{
     width: 100%;
 }
@@ -135,8 +157,8 @@ main{
       font-family: 'Lato', sans-serif;
   }
   :root{
-     --primary-color: rgb(47, 0, 255);
-        --secondary-color: rgb(245, 66, 34);
+      --primary-color: rgb(47, 0, 255);
+      --secondary-color: rgb(245, 66, 34);
       --white: white;
       --darkaqua: rgb(0, 86, 86);
       --text-color:black; 
@@ -424,10 +446,10 @@ main{
     width: 100%;
     height: 100%;
     display: block;
-    transition: transform 5s ease;
+    transition: transform .5s ease;
   }
   .gallery-item:hover img {
-    transform: scale(1.5);
+    transform: scale(1.1);
   }
 
   .gallery-overlay {
@@ -436,7 +458,7 @@ main{
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(2, 116, 247, 0.467); /* Primary color overlay */
+    background: rgba(2, 116, 247, 0.467);
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -782,15 +804,9 @@ main{
   .packages .row .card img{
       width: 100%;
       height: 100%;
-      object-fit: cover;
-      display: block;
       border-radius: 10px;
-      transition: transform 0.5s ease;
   }
-    .packages .row .card:hover img{
-        transform: scale(1.5);
-    }
-  
+    
   .packages .row .card .overlay{
       display: block;
       opacity: 0;
@@ -1194,83 +1210,6 @@ main{
 
   /* teams Section End*/
         
-
-    
-  /* Section Book Start */
-  /* .book{
-    background: #f9f9f9;
-    padding: 60px;
-  }
-  .main-text h1{
-      text-align: center;
-      text-shadow: 0px 1px 1px black;
-      font-weight: 600;
-  }
-  .main-text h1 span{
-      color: var(--secondary-color);
-  }
-  .book .card {
-      height: 400px;
-      width: 400px;
-      border-radius: 50%;
-      border: 0;        
-      margin-left: 50px;
-  }
-  
-  .book form input{
-      padding: 10px;
-      color: black;
-      border: none;
-      outline: none;
-      font-size: 15px;
-      border-radius: 10px;
-      box-shadow: 0px 5px 5px -6px black;
-  }
-  .book form textarea{
-      border: none;
-      border-radius: 10px;
-      resize: none;
-      box-shadow: 0px 5px 5px -6px black;
-      height: 200px;
-  }
-  .book .form .submit{
-      width: 200px;
-      margin: 35px 0px 0px 200px;
-      padding:15px 20px;
-      background: linear-gradient(45deg, var(--secondary-color), var(--white));
-      color: black;
-      font-family: Poppins;
-      font-weight: 500;
-      transition: 0.5s ease;
-      letter-spacing: 1px;
-      cursor: pointer;
-      border-radius: 5px;
-  }
-  .book .form .submit:hover{
-      background: linear-gradient(35deg, var(--white), var(--secondary-color));
-      color: var(--white);
-      letter-spacing: 3px;
-      
-  }
-   
-   .book .form button:hover{
-      background: linear-gradient(35deg, var(--white), var(--secondary-color));
-      color: var(--white);
-      letter-spacing: 3px;
-      
-  } 
-  @media (max-width:765px){
-      .book{
-          padding: 0;
-      }
-      .main-text h1{
-          padding: 20px;
-      }
-  } */
-
-
-  
-  /* Section Book End */
 
 
   .booking .container{

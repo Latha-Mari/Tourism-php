@@ -1,12 +1,4 @@
-
-
-
-
-
-
-
-
-
+// JavaScript for the slider functionality
 
 let nextBtn = document.querySelector('.next')
 let prevBtn = document.querySelector('.prev')
@@ -56,9 +48,7 @@ function moveSlider(direction) {
 
 
 
-
-
-
+// JavaScript for the filter functionality
     document.addEventListener('DOMContentLoaded', function() {
 		const filterButtons = document.querySelectorAll('.filter-btn');
 		const projectItems = document.querySelectorAll('.project-item');
