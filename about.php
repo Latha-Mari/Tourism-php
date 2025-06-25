@@ -71,7 +71,7 @@
             <h5>Welcome To Our About Page</h5>
             <h1>Visit Our Company</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, cumque. Quisquam, voluptatum. Quasi, cumque. Quisquam, voluptatum. Quasi, cumque.</p>
-            <a href="#">LearnMore</a>
+            <a class="btn" href="#">LearnMore</a>
         </div>
     </div>
     <!-- Home Section End -->
@@ -106,7 +106,7 @@
                 Unde, ipsa quisquam pariatur officiis saepe aut perferendis delectus minus ut ratione! Corrupti voluptatum vero nulla 
                 ut exercitationem deserunt, facilis quam perspiciatis autem iure illo harum minima. Quas, vitae aperiam laudantium alias 
                 consectetur adipisicing elit accus antium saepe cupiditate voluptatum vero nulla accusantium.saepe. </p>
-            <button id="about-btn">Explore More</button>
+            <button class="btn">Explore More</button>
           </div>
 
         </div>

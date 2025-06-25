@@ -75,7 +75,7 @@
             <h5>Hello <span><?php echo $_SESSION['username'] ?></span> , Welcome you Our Service Page</h5>
             <h1>Visit <span class="changecontent"></span></h1>
             <p>Explore and Enjoy Yourself</p>
-            <a href="#book">Book Now</a>
+            <a class="btn" href="#book">Book Now</a>
         </div>
     </div>
     <!-- Home Section End -->
@@ -110,7 +110,7 @@
                 Unde, ipsa quisquam pariatur officiis saepe aut perferendis delectus minus ut ratione! Corrupti voluptatum vero nulla 
                 ut exercitationem deserunt, facilis quam perspiciatis autem iure illo harum minima. Quas, vitae aperiam laudantium alias 
                 consectetur adipisicing elit accus antium saepe cupiditate voluptatum vero nulla accusantium.saepe. </p>
-              <button id="about-btn">Explore More</button>
+              <button class="btn">Explore More</button>
             </div>
   
           </div>

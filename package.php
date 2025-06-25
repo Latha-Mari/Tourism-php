@@ -75,7 +75,7 @@
             <h5>Hello <span><?php echo $_SESSION['username'] ?></span> , Welcome Our Packages Page</h5>
             <h1>Visit <span class="changecontent"></span></h1>
             <p>Explore and Enjoy Yourself</p>
-            <a href="#book">Book Now</a>
+            <a class="btn" href="#book">Book Now</a>
         </div>
     </div>
     <!-- Home Section End -->

@@ -52,11 +52,11 @@ body{
     outline: none;
 }
 
- .btn{
+ /* .btn{
     height: 45px;
     background: linear-gradient(45deg, var(--secondary-color), var(--white));     
     color: var(--black);
-    border: 3px solid var(--secondary-color);
+    border: 2px solid var(--white);
     border-radius: 10px;
     font-size: 16px;
     font-family: Poppins;
@@ -70,10 +70,10 @@ body{
 .btn:hover{
     background:linear-gradient(45deg, var(--white), var(--secondary-color));        
     color: var(--white);
-    border: 3px solid var(--secondary-color);
+    border: 2px solid var(--white);
     border-radius: 10px;
     letter-spacing: 3px;
-} 
+}  */
 .submit{
     width: 100%;
 }
@@ -139,6 +139,7 @@ main{
   }
   :root{
       --primary-color: rgb(47, 0, 255);
+        
       --secondary-color: rgb(245, 66, 34);
       --white: white;
       --darkaqua: rgb(0, 86, 86);
@@ -160,25 +161,27 @@ main{
   .main-txt h1 span{
       color: var(--secondary-color);
   }
-  .but{
-    height: 45px;
+  .btn{
+    height: 50px;
     background-color: rgb(245, 66, 34);     
     color: var(--white);
-    border: 5px solid var(--white);
-    border-radius: 15px;
+    border: 3px solid var(--white);
+    border-radius: 12px;
     font-size: 16px;
     font-family: Poppins;
     font-weight: 500;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
     cursor: pointer;
     margin-top: 10px;
-    padding: 15px 30px;
+    padding: 10px 30px;
 }
-.but:hover{
+.btn:hover{
     background: transparent;        
-    color: var(--black);
-    border: 5px solid var(--secondary-color);
-    border-radius: 10px;
+    color: var(--secondary-color);
+    border: 3px solid var(--secondary-color);
+    border-radius: 12px;
+    
+    transition: 0.3s ease;
 } 
   
   /* Navbar Start */
@@ -218,7 +221,6 @@ main{
   }
   .navbar a{
       text-decoration: none;
-      color: var(--white);
   }
   
   /* Navbar End */
@@ -286,25 +288,12 @@ main{
       margin-bottom: 30px;
       margin-top: 5px;
   }
-  .home .content a{
-      background-color: var(--secondary-color);        
-      color: black;
-      text-decoration: none;
-      padding: 15px;
-      border: none;
-      font-family: Poppins;
-      font-weight: 500;
-      letter-spacing: 2px;
-      cursor: pointer;
-      border-radius: 10px;
-  }
-  .home .content a:hover{
-      background-color:transparent ;
-      color: var(--white);
-      border: 2px solid var(--secondary-color); 
-      border-radius: 10px;
-  }
 
+  .home .content a{
+      text-decoration: none;
+ 
+  }
+  
 
   
   @media (max-width:1000px){
@@ -413,6 +402,8 @@ main{
       color: var(--secondary-color);
   }
   .packages .row .card{
+    width: 400px;
+    height: 500px;
     background-color: var(--white);
     color: var(--text-color);
     box-shadow: 0 0 3px black;
@@ -421,8 +412,8 @@ main{
   }
   
   .packages .card img{
-      width: 450px;
-      height: 350px;
+      width: 400px;
+      height: 300px;
       border-radius: 10px;
   }
     
@@ -857,7 +848,7 @@ main{
   }
 
   .newsletter__content form {
-    max-width: 450px;
+    max-width: 750px;
     margin-inline: auto;
     padding: 2px;
     display: flex;
@@ -876,15 +867,22 @@ main{
   }
   
   .newsletter__content .news-btn{
-    border: 0;
     outline: 0;
+    border: 2px solid var(--white);
     padding: 10px 20px;
     border-radius: 10px;
-    background-color: coral;
-    font-size: 1rem;
+    background-color: var(--secondary-color);
+    color: var(--white);
+    font-size: 16px;
     font-weight: 500;
     cursor: pointer;
     
+  }
+  .newsletter__content .news-btn:hover{
+    background-color: var(--white);
+    color: var(--secondary-color);
+    border: 2px solid var(--secondary-color);
+    transition: 0.3s ease;
   }
  
 /* Newsletter Section End*/
@@ -1196,12 +1194,11 @@ main{
 
   .booking .container{
     width: 100%;
-    height: 90vh;
     }
   .booking .container form{
     display: flex;
     flex-direction: column;
-    gap: 20px; 
+    gap: 30px; 
     font-size: 20px;
     font-weight: 500;
     color: var(--black);
@@ -1236,6 +1233,8 @@ main{
         box-shadow: 0px 5px 5px -6px black;
     }
     .booking .container form input{
+        width: 100%;
+        height: 50px;
         padding: 15px;
         border: none;
         outline: none;
@@ -1255,26 +1254,12 @@ main{
         font-size: 16px;
         font-weight: 500;
     }    
-/* 
     .booking .container form button{
-        padding: 20px;
-        background: Linear-gradient(45deg, var(--white), var(--secondary-color)) ;
-        color: var(--black);
-        outline: none;
-        font-size: 20px;
-        font-weight: 600;
-        letter-spacing: 2px;
-        border: 2px solid var(--black);
-        border-radius: 10px;
-        cursor: pointer;
-        box-shadow: 0px 5px 5px -6px black;
+        width: 100%;
+        height: 70px;
+        font-size: large;
+       
     }
-    .booking .container form button:hover{
-        background: Linear-gradient(45deg, var(--secondary-color), var(--white)) ;
-        color: var(--white);
-        letter-spacing: 5px;
-        transition: 0.3s;
-    } */
 
    /*Footer Section */ 
   footer{

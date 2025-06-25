@@ -58,7 +58,7 @@
               <a class="nav-link" href="booking.php">Booking</a>
               </li>
             </ul>
-            <a class="but" href="logout.php">Logout</a>
+            <a class="btn" href="logout.php">Logout</a>
           </div>
         </div>
       </nav>
@@ -75,7 +75,7 @@
             <h5>Hello <span><?php echo $_SESSION['username'] ?></span> , Welcome you</h5>
             <h1>Visit <span class="changecontent"></span></h1>
             <p>Explore and Enjoy Yourself</p>
-            <a class="but" href="Booking.php">Book Now</a>
+            <a class="btn" href="Booking.php">Book Now</a>
         </div>
     </div>
     <!-- Home Section End -->
@@ -110,7 +110,7 @@
                 Unde, ipsa quisquam pariatur officiis saepe aut perferendis delectus minus ut ratione! Corrupti voluptatum vero nulla 
                 ut exercitationem deserunt, facilis quam perspiciatis autem iure illo harum minima. Quas, vitae aperiam laudantium alias 
                 consectetur adipisicing elit accus antium saepe cupiditate voluptatum vero nulla accusantium.saepe. </p>
-              <button class="but">Explore More</button>
+              <button class="btn">Explore More</button>
             </div>
   
           </div>

@@ -68,11 +68,11 @@
     <!-- Home Section Start -->
     <div class="home" id="home">
         <div class="content">
-            <img src="assets/images/tra1.jpg" alt="homeimage">
+            <img src="assets/images/package.jpg" alt="homeimage">
             <h5>Hello <span><?php echo $_SESSION['username'] ?></span> , Welcome you Our Booking Page</h5>
             <h1>Visit <span class="changecontent"></span></h1>
             <p>Explore and Enjoy Yourself</p>
-            <a href="#book">Book Now</a>
+            <a class="btn" href="#book">Book Now</a>
         </div>
     </div>
     <!-- Home Section End -->
@@ -122,7 +122,7 @@
               <input type="date" class="form-control" placeholder="Arrivals" required>
               <input type="date" class="form-control" placeholder="Leaving" required>
               <textarea class="form-control" rows="5" name="text" placeholder="Type Your Message Here..."></textarea>
-              <button class="but">Submit</button>
+              <button class="btn">Submit</button>
             </form>
       </div>
     </section>
