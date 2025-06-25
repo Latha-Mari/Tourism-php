@@ -121,7 +121,7 @@
               </select>
               <input type="date" class="form-control" placeholder="Arrivals" required>
               <input type="date" class="form-control" placeholder="Leaving" required>
-              <textarea class="form-control" rows="5" name="text" placeholder="Enter Your Name & Details"></textarea>
+              <textarea class="form-control" rows="5" name="text" placeholder="Type Your Message Here..."></textarea>
               <button class="but">Submit</button>
             </form>
       </div>

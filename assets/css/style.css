@@ -172,7 +172,7 @@ main{
     letter-spacing: 3px;
     cursor: pointer;
     margin-top: 10px;
-    padding: 10px 30px;
+    padding: 15px 30px;
 }
 .but:hover{
     background: transparent;        
@@ -1042,9 +1042,8 @@ main{
 
   .group .project-item img {
       width: 200px;
-      height: 200px; /* Fixed height for images */
-      object-fit: cover; /* Crop image to fit, maintaining aspect ratio */
-      border-radius: 5px;
+      height: 200px; 
+      object-fit: cover;
       margin-bottom: 10px;
   }
 
@@ -1058,14 +1057,14 @@ main{
   .group .project-item p {
       font-size: 0.9em;
       color: #555;
-      flex-grow: 1; /* Allow description to take remaining space */
+      flex-grow: 1; 
       margin-bottom: 10px;
   }
 
   .group .project-item .tags {
       font-size: 0.8em;
       color: #777;
-      margin-top: auto; /* Push tags to the bottom */
+      margin-top: auto; 
   }
   .group .project-item .tags span {
       background-color: #e0e0e0;
@@ -1076,22 +1075,21 @@ main{
 
   /* Class to hide items */
   .hide {
-      display: none !important; /* Use !important to ensure it overrides other display properties */
+      display: none !important; 
   }
 
-  /* Responsive adjustments */
   @media (max-width: 992px) {
       .project-item {
-          flex-basis: calc(50% - 10px); /* 2 items per row */
+          flex-basis: calc(50% - 10px);
       }
   }
 
   @media (max-width: 600px) {
       .project-item {
-          flex-basis: 100%; /* 1 item per row */
+          flex-basis: 100%;
       }
       .filter-buttons {
-          flex-direction: column; /* Stack buttons vertically */
+          flex-direction: column;
           align-items: stretch;
       }
       .filter-buttons button {
@@ -1186,7 +1184,7 @@ main{
     transition: transform var(--transition-speed) ease;
   }
   .team-item img:hover{
-  opacity: 0.5;
+    opacity: 0.5;
   }
   .team-item:hover img {
     transform: scale(1.2);
@@ -1197,10 +1195,10 @@ main{
 
 
   .booking .container{
-        width: 100%;
-        height: 90vh;
+    width: 100%;
+    height: 90vh;
     }
-    .booking .container form{
+  .booking .container form{
     display: flex;
     flex-direction: column;
     gap: 20px; 
@@ -1210,7 +1208,7 @@ main{
     width: 70%;
     margin: 0 auto; 
     padding:30px;  
-    }
+  }
     .booking .container form .place {
         padding: 15px 20px;
         left: 20px;
@@ -1249,7 +1247,7 @@ main{
         border-radius: 10px;
         resize: none;
         box-shadow: 0px 5px 5px -6px black;
-        height: 200px;
+        height: 250px;
     }
     .booking .container form textarea::placeholder,
     .booking .container form input{
